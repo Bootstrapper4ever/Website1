@@ -8,15 +8,16 @@
     font-family: 'Inter', sans-serif;
 }
 
-body {
+.main {
     min-height: 100vh;
     background: url(https://static.nike.com/a/images/f_auto/22e6662b-f9e1-4fc0-a72f-f776b2c0805e/image.jpeg) no-repeat;
     background-size: cover;
-    background-position: center;
+	background-position: center;
 }
 
+/* Kad stavis position: fixed; onda nav-bar prati scroll, a sad kako ga nema on stoji gore */
+
 .header{
-  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -70,4 +71,15 @@ body {
     width: 100%;
 
 }
+
+.offer {
+    height: 50vh;
+    background: #fff;
+}
+
+.images {
+    height: 100vh;
+    background: #fff;
+}
+
 
