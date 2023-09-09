@@ -1,3 +1,8 @@
+@font-face {
+    font-family: Thunder;
+    src: url(./thunder-font/thunder-font/THUNDER/Fonts/Variable-TT/Thunder-VF.ttf);
+}
+
 * {
     padding: 0;
     margin: 0;
@@ -30,7 +35,7 @@
 }
 
 .logo {
-    margin-left: 50px;
+    margin-left: 60px;
     font-size: 32px;
     color: #fff;
     text-decoration:  none;
@@ -73,13 +78,114 @@
 }
 
 .offer {
-    height: 50vh;
-    background: #fff;
+    height: 35vh;
+    background: #815b5b;
 }
 
+.offer h1 {
+    position: relative;
+    height: 25vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 4rem;
+    text-transform: uppercase;
+    line-height: 4rem;
+    font-family: Thunder;
+    margin-bottom: -5vh;
+}
+
+.offer p {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.offer a {
+    padding: 8px 20px;
+    position: relative;
+    display: inline-block;
+    left: 82.9vh;
+    top: 3.5vh;
+    background-color: black;
+    color: #fff;
+    border-style: none;
+    border-radius: 25vh;
+    font-size: 16px;
+}
 .images {
-    height: 100vh;
-    background: #fff;
+    height: 62vh;
+    background: #B78D8D;
 }
 
+.images h1 {
+    top: 1.4vh;
+    position: relative;
+    height: 8vh;
+    left: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    text-align: center;
+    font-size: 1.23rem;
+    font-weight: 700;
+    font-style: oblique;
+}
 
+.images img {
+    left: 2vh;
+    position: relative;
+    display: inline-block;
+    margin: 2vh 2.3vh 1vh 2.5vh;
+    border-radius: 5%;
+    border-style: none;
+}
+
+hr {
+    border-color: black;
+}
+
+.newArrival {
+    height: 100vh;
+    background-color: #815b5b;
+}
+
+.newArrival h1 {
+    top: 1.4vh;
+    position: relative;
+    height: 8vh;
+    left: 2.5vh;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    text-align: center;
+    font-size: 1.23rem;
+    font-weight: 700;
+    font-style: oblique;
+    text-decoration: underline;
+}
+
+.newArrival {
+    min-height: 100vh;
+    background: url(./Images/kys-PhotoRoom.png-PhotoRoom\ \(5\).png) no-repeat;
+    background-size: contain;
+	background-position: right;
+    background-color: #815b5b;
+}
+
+.newArrival p {
+    position: relative;
+    height: 8vh;
+    left: 2.5vh;
+    display: relative;
+    justify-content: left;
+    text-align: justify;
+    font-size: 1.2rem;
+    font-weight: 200;
+    font-style: oblique;
+    max-width: 50vh;
+}
